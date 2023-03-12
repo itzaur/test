@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@300&600&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Hind&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Hind&display=swap");
 
 :root {
   --clr-light: rgb(224, 252, 236);
@@ -10,8 +10,8 @@
   --clr-gray: rgb(201, 201, 201);
   --clr-brown: #453639;
   --clr-footer: #8a736a;
-  --ff-primary: 'Teko', sans-serif;
-  --ff-secondary: 'Teko', sans-serif;
+  --ff-primary: "Teko", sans-serif;
+  --ff-secondary: "Teko", sans-serif;
 }
 
 html {
@@ -150,7 +150,7 @@ body {
 
   &__title {
     font-size: 3rem;
-    font-family: 'Teko', sans-serif;
+    font-family: "Teko", sans-serif;
     font-weight: 600;
   }
 
@@ -206,4 +206,69 @@ body {
       grid-row: 9 / auto;
     }
   }
+}
+
+.faq {
+  padding: 50px;
+  padding-bottom: 0;
+}
+
+.faq h2 {
+  color: hsl(238, 29%, 16%);
+  font-size: 28px;
+  padding-bottom: 20px;
+}
+
+.faq > div {
+  border-bottom: 1px solid hsl(240, 5%, 91%);
+}
+
+.faq span {
+  transition: 0.4s;
+  float: right;
+}
+
+label {
+  display: block;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+  padding: 15px 15px 15px 0;
+  color: hsl(237, 12%, 33%);
+  transition: 0.4s;
+}
+
+label:hover {
+  color: hsl(14, 88%, 65%);
+}
+
+input {
+  display: inline-block;
+}
+
+.content {
+  padding: 5px 0px;
+  margin: 0 0 1px 0;
+  border-radius: 3px;
+  color: hsl(240, 6%, 50%);
+  font-size: 14px;
+  overflow: hidden;
+  height: 0;
+  opacity: 0;
+  transition: height 0.4s, opacity 0.4s;
+}
+
+input:checked ~ .content {
+  height: 60px;
+  opacity: 1;
+}
+
+input:checked ~ label {
+  color: hsl(238, 29%, 16%);
+  font-weight: 700;
+}
+
+input:checked ~ label span {
+  transition: 0.4s;
+  transform: rotate(180deg);
 }
