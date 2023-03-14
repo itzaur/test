@@ -1,1 +1,6 @@
+<<<<<<< HEAD
+=======
+commit 1
+commit 2
+>>>>>>> f267bd85d4d5c2adbc0ff60ab9bb7c74e02e8ee4
 commit 3
