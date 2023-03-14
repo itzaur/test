@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 commit 2
 commit 1
+=======
+commit 1
+commit 2
+>>>>>>> d1ab9a5... docs: fix test.txt
