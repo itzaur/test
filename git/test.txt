@@ -1,12 +1,1 @@
-<<<<<<< HEAD
-commit 2
-commit 1
-<<<<<<< HEAD
-=======
-commit 1
-commit 2
->>>>>>> d1ab9a5... docs: fix test.txt
-=======
-commit 2
-comit 3
->>>>>>> 8a5cf30... docs: new fix testt.txt
+commit 3
